@@ -1,0 +1,53 @@
+body {
+  background: url("https://source.unsplash.com/1600x900/?nature") no-repeat
+    center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  height: 100vh;
+}
+
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.rounded-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+.todo-item {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.todo-status {
+  font-size: 0.9em;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.message {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
